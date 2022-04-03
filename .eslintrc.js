@@ -5,8 +5,9 @@ module.exports = {
   },
   extends: [
     "plugin:vue/essential",
-    "@vue/airbnb",
     "@vue/typescript/recommended",
+    "@vue/prettier",
+    "prettier/@typescript-eslint",
   ],
   parserOptions: {
     ecmaVersion: 2020,
@@ -17,3 +18,4 @@ module.exports = {
     quotes: ["error", "double", { avoidEscape: true }],
   },
 };
+
