@@ -3,12 +3,7 @@ module.exports = {
   env: {
     node: true,
   },
-  extends: [
-    "plugin:vue/essential",
-    "@vue/typescript/recommended",
-    "@vue/prettier",
-    "prettier/@typescript-eslint",
-  ],
+  extends: ["plugin:vue/essential", "@vue/typescript/recommended", "@vue/prettier"],
   parserOptions: {
     ecmaVersion: 2020,
   },
@@ -18,4 +13,3 @@ module.exports = {
     quotes: ["error", "double", { avoidEscape: true }],
   },
 };
-
