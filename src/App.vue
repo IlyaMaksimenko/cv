@@ -5,12 +5,10 @@
       name="username"
       @update:visible="updateHelloDialogVisible"
     />
-
-    <v-main v-if="!showHi">
-      <v-container fluid>
-        <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
-      </v-container>
-    </v-main>
+    <iframe
+      class="frame"
+      src="/cv.html"
+    />
   </v-app>
 </template>
 
@@ -45,5 +43,11 @@ html {
 
 body {
   margin: 0;
+}
+
+.frame {
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 </style>

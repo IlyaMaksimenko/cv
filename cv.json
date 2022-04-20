@@ -1,0 +1,329 @@
+{
+  "basics": {
+    "name": "Ilya Maksimenko",
+    "label": "Full Stack Software Developer",
+    "image": "https://media-exp1.licdn.com/dms/image/C4D03AQEOVsbWxv_tEw/profile-displayphoto-shrink_800_800/0/1650486262174?e=1655942400&v=beta&t=BDksqQp_9OEeuvCPJHJN9Vfk4dg46JSaBGJb2LD6OQM",
+    "email": "imax1287@gmail.com",
+    "phone": "+995 599753044",
+    "url": "https://maksimenko.dev",
+    "summary": "Multifunctional software engineer with years of experience in commercial development. Sequence of successfully implemented projects from trading platform, to e-publishing services, e-commercial integrations, and others.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Tbilisi",
+      "countryCode": "GE",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Ilya Maksimenko",
+        "url": "https://www.linkedin.com/in/ilya-maksimenko-a5101216a/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "EffectiveSoft Ltd.",
+      "company":"EffectiveSoft Ltd.",
+      "position": "Full Stack Software Developer",
+      "website": "https://effectivesoft.com",
+      "url": "https://effectivesoft.com",
+      "startDate": "2017-03-01",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University",
+      "url": "https://bntu.by/",
+      "area": "Software Development",
+      "studyType": "Specialist",
+      "startDate": "2012-09-01",
+      "endDate": "2017-07-01",
+      "score": "9.5/10",
+      "courses": [],
+      "location": {
+        "city": "Minsk",
+        "countryCode": "BY"
+      }
+    },
+    {
+      "institution": "Academy",
+      "url": "http://www.academy.edu.by/",
+      "area": "Translation",
+      "studyType": "Bachelor",
+      "startDate": "2015-09-07",
+      "endDate": "2017-01-21",
+      "score": "7.4/10",
+      "courses": [],
+      "location": {
+        "city": "Minsk",
+        "countryCode": "BY"
+      }
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "EF SET Certificate",
+      "date": "2022-01-27",
+      "issuer": "EFSET",
+      "url": "https://www.efset.org/cert/QXrV15"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Backend",
+      "level": "Master",
+      "keywords": [
+        "C#",
+        ".NET Framework",
+        ".NET Core",
+        "ASP.NET WebAPI",
+        "ASP.NET MVC",
+        "Entity Framework",
+        "NHibernate",
+        "Dapper",
+        "REST"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS/SCSS",
+        "javascript",
+        "Typescript",
+        "jQuery",
+        "Angular",
+        "Vue.js"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Master",
+      "keywords": [
+        "SQL",
+        "Microsoft SQL Server",
+        "MySQL",
+        "Redis"
+      ]
+    },
+    {
+      "name": "3rd Party Integrations",
+      "level": "Advanced",
+      "keywords": [
+        "Twilio",
+        "SendGrid",
+        "Slack",
+        "MS Teams",
+        "Shopify",
+        "SAML"
+      ]
+    },
+    {
+      "name": "Version Control System",
+      "level": "Master",
+      "keywords": [
+        "Git",
+        "TFS"
+      ]
+    },
+    {
+      "name": "Other",
+      "keywords": [
+        "Azure Cloud Services",
+        "Jenkins",
+        "Docker",
+        "Windows Forms",
+        "Electron"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Prototyping Application and Sharing Service",
+      "description": "Prototyping Application is UX tool that gives UX professionals the power to build realistic, functional prototypes. Sharing service allows to host, share, inspect, and gather feedback on UX prototypes.",
+      "highlights": [
+        "Implemented own UI kit of web components.",
+        "Implemented API endpoints for new features.",
+        "Implemented search and commenting features.",
+        "Improved performance of database operations and SQL scripts.",
+        "Implemented Microsoft Teams and Slack integrations.",
+        "Integrated SAML authentication.",
+        "Implemented zooming and panning for prototype application.",
+        "Implemented Redis caching.",
+        "Led development for scope of new features.",
+        "Performed R&D and Implemented POC.",
+        "Bug fixes"
+      ],
+      "keywords": [
+        "C#",
+        ".NET Core",
+        "ASP.NET Core",
+        "Microsoft SQL Server",
+        "MySQL",
+        "NHibernate",
+        "Dapper",
+        "Windows Forms",
+        "javascript",
+        "Typescript",
+        "jQuery",
+        "Vue.js",
+        "Electron",
+        "Git"
+      ],
+      "startDate": "2019-01-01",
+      "url": "",
+      "roles": ["Key Developer", "Feature Lead", "Tech Lead"],
+      "entity": "",
+      "type": "application"
+    },
+    {
+      "name": "Shopify integration for Order Management System",
+      "description": "Two-way integration platform for manage goods and receive orders",
+      "highlights": [
+        "Implemented architecture for two-way integration with e-commerce platform.",
+        "Realized Jenkins deployment for development server.",
+        "Implemented service features."
+      ],
+      "keywords": [
+        "C#",
+        ".NET Core",
+        "Microsoft SQL Server",
+        "Entity Framework",
+        "CQRS",
+        "Jenkins",
+        "Git"
+      ],
+      "startDate": "2019-12-01",
+      "endDate": "2020-03-30",
+      "url": "",
+      "roles": ["Key Developer", "Tech Lead"],
+      "entity": "",
+      "type": "application"
+    },
+    {
+      "name": "Order Management System",
+      "description": "Portal for managing orders based on a given workflow of various types of products. Changing statuses as well as creating various workflows is possible using the web interface. The portal also includes optimized communication channels between specialist departments and sales partners.",
+      "highlights": [
+        "Implemented client application architecture.",
+        "Implemented client application functionality.",
+        "Refactored service API to support new data structure."
+      ],
+      "keywords": [
+        "C#",
+        ".NET Framework",
+        "ASP.NET Web API",
+        "Microsoft SQL Server",
+        "Entity Framework",
+        "Typescript",
+        "Angular",
+        "Git"
+      ],
+      "startDate": "2018-09-01",
+      "endDate": "2019-02-01",
+      "url": "",
+      "roles": ["Key Developer"],
+      "entity": "",
+      "type": "application"
+    },
+    {
+      "name": "Cloud E-publishing Platform",
+      "description": "E-publishing platform delivers cross-media publishing capabilities, digitally-enriched print to web, monetization programs and audience engagement solutions. The data preparation service for the platform is used to check/edit the data received from the publication text recognition system.",
+      "highlights": [
+        "Implemented feature for selecting text blocks on canvas.",
+        "Refactored project and Implemented features according GDPR.",
+        "Implemented Docker containerization.",
+        "Refactored js libs to monorepo.",
+        "Performed R&D and Implemented POC."
+      ],
+      "keywords": [
+        "C#",
+        ".NET Framework",
+        "ASP.NET",
+        "jQuery",
+        "Typescript",
+        "Docker",
+        "TFS"
+      ],
+      "startDate": "2017-08-01",
+      "endDate": "2018-09-01",
+      "url": "",
+      "roles": ["Developer"],
+      "entity": "",
+      "type": "application"
+    },
+    {
+      "name": "Sales Forecasting System",
+      "description": "A sales forecasting tool designed for business planning and analyzing a company's performance. Application have ability to add, view, sort, find and display data in different views.",
+      "highlights": [
+        "Refactored service API to support new data structure.",
+        "Implemented new functionality for client app.",
+        "Integrated typescript models generation from C# code.",
+        "Bug fixes"
+      ],
+      "keywords": [
+        "C#",
+        ".NET Framework",
+        "ASP.NET MVC",
+        "Microsoft SQL Server",
+        "EntityFramework",
+        "AngularJs",
+        "Typescript",
+        "Git"
+      ],
+      "startDate": "2019-08-01",
+      "endDate": "2019-09-01",
+      "url": "",
+      "roles": ["Developer"],
+      "entity": "",
+      "type": "application"
+    },
+    {
+      "name": "Trading Platform Application",
+      "description": "Complete solution to trading stocks, crypto, futures and ETFs at real-market spot prices of global and crypto exchanges free of any fees.",
+      "highlights": [
+        "Implemented integration with SMS and Email providers.",
+        "Implemented business logic and data access layer.",
+        "Implemented service API with documentation.",
+        "Implemented caching and unit tests.",
+        "Implemented client app with administrative tools."
+      ],
+      "keywords": [
+        "C#",
+        ".NET Framework",
+        "ASP.NET Web API",
+        "Microsoft SQL Server",
+        "EntityFramework",
+        "Redis",
+        "Azure Cloud Services",
+        "Angular",
+        "Typescript",
+        "Git"
+      ],
+      "startDate": "2017-06-01",
+      "endDate": "2017-09-01",
+      "url": "",
+      "roles": ["Developer"],
+      "entity": "",
+      "type": "application"
+    }
+  ]
+}

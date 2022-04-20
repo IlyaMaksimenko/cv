@@ -1,6 +1,8 @@
 .DS_Store
 node_modules
 /dist
+/public/cv.html
+/public/cv.pdf
 
 
 # local env files
