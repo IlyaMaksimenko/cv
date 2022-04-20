@@ -9,18 +9,19 @@
       class="frame"
       src="/cv.html"
     />
+    <BottomPanel name="username" />
   </v-app>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import HelloDialog from "./components/HelloDialog.vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import BottomPanel from "./components/BottomPanel.vue";
 
 @Component({
   components: {
     HelloDialog,
-    HelloWorld,
+    BottomPanel,
   },
 })
 export default class App extends Vue {
