@@ -36,7 +36,7 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "University",
+      "institution": "Belarusian National Technical University",
       "url": "https://bntu.by/",
       "area": "Software Development",
       "studyType": "Specialist",
@@ -50,7 +50,7 @@
       }
     },
     {
-      "institution": "Academy",
+      "institution": "Academy of Postgraduate Education",
       "url": "http://www.academy.edu.by/",
       "area": "Translation",
       "studyType": "Bachelor",
@@ -160,6 +160,7 @@
     {
       "name": "Prototyping Application and Sharing Service",
       "description": "Prototyping Application is UX tool that gives UX professionals the power to build realistic, functional prototypes. Sharing service allows to host, share, inspect, and gather feedback on UX prototypes.",
+      "summary": "Prototyping Application is UX tool that gives UX professionals the power to build realistic, functional prototypes. Sharing service allows to host, share, inspect, and gather feedback on UX prototypes.",
       "highlights": [
         "Implemented own UI kit of web components.",
         "Implemented API endpoints for new features.",
@@ -170,8 +171,7 @@
         "Implemented zooming and panning for prototype application.",
         "Implemented Redis caching.",
         "Led development for scope of new features.",
-        "Performed R&D and Implemented POC.",
-        "Bug fixes"
+        "Performed R&D and Implemented POC."
       ],
       "keywords": [
         "C#",
@@ -179,6 +179,7 @@
         "ASP.NET Core",
         "Microsoft SQL Server",
         "MySQL",
+        "Redis",
         "NHibernate",
         "Dapper",
         "Windows Forms",
@@ -198,6 +199,7 @@
     {
       "name": "Shopify integration for Order Management System",
       "description": "Two-way integration platform for manage goods and receive orders",
+      "summary": "Two-way integration platform for manage goods and receive orders",
       "highlights": [
         "Implemented architecture for two-way integration with e-commerce platform.",
         "Realized Jenkins deployment for development server.",
@@ -221,7 +223,8 @@
     },
     {
       "name": "Order Management System",
-      "description": "Portal for managing orders based on a given workflow of various types of products. Changing statuses as well as creating various workflows is possible using the web interface. The portal also includes optimized communication channels between specialist departments and sales partners.",
+      "description": "Portal for managing orders based on a given workflow of various types of products. Changing statuses as well as creating various workflows is possible using the web interface.",
+      "summary": "Portal for managing orders based on a given workflow of various types of products. Changing statuses as well as creating various workflows is possible using the web interface.",
       "highlights": [
         "Implemented client application architecture.",
         "Implemented client application functionality.",
@@ -246,7 +249,8 @@
     },
     {
       "name": "Cloud E-publishing Platform",
-      "description": "E-publishing platform delivers cross-media publishing capabilities, digitally-enriched print to web, monetization programs and audience engagement solutions. The data preparation service for the platform is used to check/edit the data received from the publication text recognition system.",
+      "description": "E-publishing platform delivers digitally-enriched print to web. The data preparation service for the platform is used to check/edit the data received from the publication text recognition system.",
+      "summary": "E-publishing platform delivers digitally-enriched print to web. The data preparation service for the platform is used to check/edit the data received from the publication text recognition system.",
       "highlights": [
         "Implemented feature for selecting text blocks on canvas.",
         "Refactored project and Implemented features according GDPR.",
@@ -273,11 +277,11 @@
     {
       "name": "Sales Forecasting System",
       "description": "A sales forecasting tool designed for business planning and analyzing a company's performance. Application have ability to add, view, sort, find and display data in different views.",
+      "summary": "A sales forecasting tool designed for business planning and analyzing a company's performance. Application have ability to add, view, sort, find and display data in different views.",
       "highlights": [
         "Refactored service API to support new data structure.",
         "Implemented new functionality for client app.",
-        "Integrated typescript models generation from C# code.",
-        "Bug fixes"
+        "Integrated typescript models generation from C# code."
       ],
       "keywords": [
         "C#",
@@ -299,6 +303,7 @@
     {
       "name": "Trading Platform Application",
       "description": "Complete solution to trading stocks, crypto, futures and ETFs at real-market spot prices of global and crypto exchanges free of any fees.",
+      "summary": "Complete solution to trading stocks, crypto, futures and ETFs at real-market spot prices of global and crypto exchanges free of any fees.",
       "highlights": [
         "Implemented integration with SMS and Email providers.",
         "Implemented business logic and data access layer.",
@@ -312,7 +317,6 @@
         "ASP.NET Web API",
         "Microsoft SQL Server",
         "EntityFramework",
-        "Redis",
         "Azure Cloud Services",
         "Angular",
         "Typescript",

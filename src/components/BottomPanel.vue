@@ -23,7 +23,8 @@ export default class HelloDialog extends Vue {
   get filename() {
     const now = new Date();
     const timestamp = `${now.getDate()}-${now.getMonth()}-${now.getFullYear()}`;
-    return `${this.name}_${timestamp}.pdf`;
+    const username = this.name.replaceAll(" ", "_");
+    return `${username}_${timestamp}.pdf`;
   }
 }
 </script>

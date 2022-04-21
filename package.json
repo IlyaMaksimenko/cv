@@ -5,9 +5,9 @@
   "scripts": {
     "build:resume": "yarn build:resume:html && yarn build:resume:pdf",
     "build:resume:html": "resume export ./public/cv.html --resume cv.json --format html --theme stackoverflow",
-    "build:resume:pdf": "puppeteer --margin-top 0 --margin-right 0 --margin-bottom 0 --margin-left 0 --format A4 --background false --wait-until 'networkidle0' print ./public/cv.html ./public/cv.pdf",
+    "build:resume:pdf": "puppeteer --format A4 --background false --wait-until 'networkidle0' print ./public/cv.html ./public/cv.pdf",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "yarn build:resume && vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

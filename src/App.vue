@@ -2,19 +2,19 @@
   <v-app>
     <HelloDialog
       :visible="isHelloDialogVisible"
-      name="username"
+      :name="username"
       @update:visible="updateHelloDialogVisible"
     />
     <iframe
       class="frame"
       src="/cv.html"
     />
-    <BottomPanel name="username" />
+    <BottomPanel :name="username" />
   </v-app>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Vue, Watch } from "vue-property-decorator";
 import HelloDialog from "./components/HelloDialog.vue";
 import BottomPanel from "./components/BottomPanel.vue";
 
@@ -26,6 +26,14 @@ import BottomPanel from "./components/BottomPanel.vue";
 })
 export default class App extends Vue {
   isHelloDialogVisible = false;
+  get username() {
+    return process.env.VUE_APP_USERNAME;
+  }
+
+  @Watch("username", { immediate: true })
+  onUserNameChanged(username: string) {
+    document.title = username;
+  }
 
   updateHelloDialogVisible(value: boolean) {
     this.isHelloDialogVisible = value;
